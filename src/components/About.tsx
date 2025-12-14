@@ -18,12 +18,15 @@ export const About = () => {
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold">
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                  About{" "}
+                  The Mental Health{" "}
                 </span>
-                Jung
+                Crisis
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Jung is a comprehensive mental health companion designed to support your wellbeing journey through personalized AI guidance. Our app combines mood tracking, therapeutic insights, and meaningful conversation to help you understand yourself better and build emotional resilience. With privacy-first design and evidence-based approaches, Jung empowers you to take control of your mental health in a safe, supportive environment.
+                <strong>The Problem:</strong> 1 in 4 people worldwide suffer from mental health disorders, yet 70% lack access to adequate care. Traditional therapy costs $100-200/session with 3-6 month waiting lists. Current digital solutions lack personalization and clinical depth.
+              </p>
+              <p className="text-xl text-muted-foreground mt-4">
+                <strong>Our Solution:</strong> Jung leverages advanced AI conversation therapy to provide personalized, evidence-based mental health interventions accessible 24/7. We're building the first clinically-validated AI therapist that adapts to individual needs, cultural context, and therapeutic progress.
               </p>
             </div>
 

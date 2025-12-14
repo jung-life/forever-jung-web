@@ -12,31 +12,31 @@ export const Hero = () => {
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
               Jung
             </span>{" "}
-            Mental Health
+            AI-Powered Mental Health
           </h1>{" "}
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              Companion
+              Revolution
             </span>
           </h2>
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          Track your mood, journal with AI guidance, and gain therapeutic insights with personalized mental health support designed for your wellbeing journey.
+          Democratizing mental healthcare through AI-powered conversation therapy. Addressing the $240B mental health crisis with personalized, accessible, and evidence-based digital interventions.
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <Button className="w-full md:w-1/3">Get Started</Button>
+          <Button className="w-full md:w-1/3">Request Demo</Button>
 
           <a
             rel="noreferrer noopener"
-            href="https://github.com/jung-life/forever-jung-web"
+            href="https://github.com/jung-life/Jung/tree/beta-jung"
             target="_blank"
             className={`w-full md:w-1/3 ${buttonVariants({
               variant: "outline",
             })}`}
           >
-            Github Repository
+            View Technical Roadmap
             <GitHubLogoIcon className="ml-2 w-5 h-5" />
           </a>
         </div>

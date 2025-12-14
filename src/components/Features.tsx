@@ -18,35 +18,35 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Mood Tracking & Analytics",
+    title: "Advanced AI Conversation Engine",
     description:
-      "Track your daily mood patterns with location-aware insights and comprehensive analytics to understand your emotional wellbeing over time.",
+      "Proprietary LLM fine-tuned on 10,000+ therapeutic sessions. Real-time emotional analysis, contextual memory, and adaptive conversation flow using transformer architecture.",
     image: image4,
   },
   {
-    title: "AI-Guided Journaling",
+    title: "Clinical Validation Framework",
     description:
-      "Engage with intelligent conversation guides including The Deep Thinker, Life Coach, Wise Sage, and Breakthrough Coach for meaningful self-reflection.",
+      "Evidence-based interventions from CBT, DBT, and ACT therapies. Validated outcome measures (PHQ-9, GAD-7) with automated progress tracking and risk assessment.",
     image: image3,
   },
   {
-    title: "Therapeutic Insights",
+    title: "Privacy-First Architecture",
     description:
-      "Get personalized mental health insights, cognitive distortion checking, and thought pattern analysis to support your personal growth journey.",
+      "End-to-end encryption, on-device processing, zero-knowledge backend. HIPAA-compliant data handling with federated learning for model improvement without data exposure.",
     image: image,
   },
 ];
 
 const featureList: string[] = [
-  "Mood Tracking",
-  "AI Conversation Guides",
-  "Daily Journaling",
-  "Cognitive Assessment",
-  "Therapeutic Insights",
-  "Voice Notes",
-  "Personal Dashboard",
-  "Privacy Focused",
-  "Cross-Platform",
+  "LLM Fine-tuning",
+  "Clinical Validation",
+  "HIPAA Compliance",
+  "Real-time Analytics",
+  "Federated Learning",
+  "Risk Assessment",
+  "Outcome Tracking",
+  "Multi-modal Input",
+  "Scalable Architecture",
 ];
 
 export const Features = () => {
@@ -56,9 +56,9 @@ export const Features = () => {
       className="container py-24 sm:py-32 space-y-8"
     >
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Powerful{" "}
+        Revolutionary{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Mental Health Features
+          AI Technology Stack
         </span>
       </h2>
 

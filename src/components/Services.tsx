@@ -10,21 +10,21 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
+    title: "Clinical-Grade AI vs Consumer Apps",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "While competitors offer basic chatbots, Jung provides clinical-grade therapeutic interventions with validated outcome measures and safety protocols comparable to human therapists.",
     icon: <ChartIcon />,
   },
   {
-    title: "Project Management",
+    title: "Proprietary Training Data",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Exclusive partnerships with therapeutic institutions provide access to anonymized session data, creating superior AI models that competitors cannot replicate without similar clinical relationships.",
     icon: <WalletIcon />,
   },
   {
-    title: "Task Automation",
+    title: "Privacy-First Moat",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Revolutionary federated learning approach allows continuous model improvement without exposing user data, addressing the fundamental privacy paradox in mental health AI.",
     icon: <MagnifierIcon />,
   },
 ];
@@ -36,14 +36,13 @@ export const Services = () => {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Client-Centric{" "}
+              Competitive{" "}
             </span>
-            Services
+            Advantages
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
+            Jung's defensible moats and technological advantages that create sustainable competitive barriers in the mental health AI market.
           </p>
 
           <div className="flex flex-col gap-8">

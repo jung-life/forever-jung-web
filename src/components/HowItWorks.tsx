@@ -10,27 +10,27 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Download & Setup",
+    title: "Phase 1: MVP (Q1 2025)",
     description:
-      "Download Jung from the App Store or Google Play. Create your secure account and complete your personalized wellness profile.",
+      "Core AI conversation engine with basic therapeutic frameworks. Beta testing with 100+ users for initial validation and feedback collection.",
   },
   {
     icon: <MapIcon />,
-    title: "Track Your Mood",
+    title: "Phase 2: Clinical Validation (Q2 2025)",
     description:
-      "Begin daily mood tracking with location-aware insights. Record your emotional state and let Jung learn your patterns.",
+      "Partner with clinical institutions for efficacy studies. Implement validated assessment tools and outcome measures for clinical-grade results.",
   },
   {
     icon: <PlaneIcon />,
-    title: "Journal with AI",
+    title: "Phase 3: Scale & Integration (Q3 2025)",
     description:
-      "Engage with our AI conversation guides - The Deep Thinker, Life Coach, Wise Sage, and Breakthrough Coach for meaningful self-reflection.",
+      "Healthcare provider partnerships, insurance integration. Advanced AI features with personalization engine and multi-language support.",
   },
   {
     icon: <GiftIcon />,
-    title: "Gain Insights",
+    title: "Phase 4: Platform Expansion (Q4 2025)",
     description:
-      "Receive personalized therapeutic insights, cognitive assessments, and track your mental health progress over time.",
+      "Enterprise solutions for employers and health systems. API platform for third-party developers and comprehensive analytics dashboard.",
   },
 ];
 
@@ -41,14 +41,14 @@ export const HowItWorks = () => {
       className="container text-center py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold ">
-        How{" "}
+        Development{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Jung{" "}
+          Roadmap{" "}
         </span>
-        Works
+        & Milestones
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Your journey to better mental health starts here. Follow these simple steps to begin your personalized wellbeing experience.
+        Our strategic 12-month development plan with clear milestones, funding requirements, and market validation checkpoints.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

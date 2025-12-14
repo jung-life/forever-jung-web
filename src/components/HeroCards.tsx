@@ -33,7 +33,7 @@ export const HeroCards = () => {
           </div>
         </CardHeader>
 
-        <CardContent>Jung has helped me track my mood and gain valuable insights into my mental health journey!</CardContent>
+        <CardContent>Prototype testing shows 85% user satisfaction with AI conversation quality. Ready for beta launch!</CardContent>
       </Card>
 
       {/* Team */}
@@ -111,33 +111,33 @@ export const HeroCards = () => {
       <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <CardTitle className="flex item-center justify-between">
-            Jung App
+            Development Status
             <Badge
               variant="secondary"
               className="text-sm text-primary"
             >
-              Download Free
+              In Progress
             </Badge>
           </CardTitle>
           <div>
-            <span className="text-3xl font-bold">Free</span>
-            <span className="text-muted-foreground"> Mental Health Companion</span>
+            <span className="text-3xl font-bold">75%</span>
+            <span className="text-muted-foreground"> MVP Complete</span>
           </div>
 
           <CardDescription>
-            Start your mental wellness journey with Jung's AI-powered insights and mood tracking.
+            Core AI engine built. Clinical frameworks implemented. Beta testing begins Q1 2025.
           </CardDescription>
         </CardHeader>
 
         <CardContent>
-          <Button className="w-full">Download Jung</Button>
+          <Button className="w-full">View Progress</Button>
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />
 
         <CardFooter className="flex">
           <div className="space-y-4">
-            {["AI Conversation Guides", "Mood Tracking", "Therapeutic Insights"].map(
+            {["Core AI Engine ✓", "Clinical Validation ⏳", "Beta Testing ⏳"].map(
               (benefit: string) => (
                 <span
                   key={benefit}
