@@ -1,21 +1,22 @@
 {
-  "name": "shadcn-landing-page-template",
-  "description": "Landing page template utilizing Shadcn, React, Typescript, and Tailwind CSS for rapid development and responsive design.",
+  "name": "jung-landing-page",
+  "description": "Jung Mental Health Companion - Landing page for the comprehensive mental health app with AI-guided journaling and mood tracking.",
   "author": {
-    "name": "Leopoldo Miranda",
-    "email": "leomirandadev@gmail.com",
-    "url": "https://github.com/leoMirandaa"
+    "name": "Founder",
+    "email": "founder@foreverjung.me",
+    "url": "https://github.com/jung-life"
   },
   "license": "MIT",
   "keywords": [
+    "jung",
+    "mental-health",
+    "mood-tracking",
+    "ai-journaling",
     "react",
     "typescript",
     "shadcn",
-    "shadcn/ui",
     "tailwind",
-    "landing-page",
-    "template",
-    "responsive-design"
+    "landing-page"
   ],
   "private": true,
   "version": "1.1.0",

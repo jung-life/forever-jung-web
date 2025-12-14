@@ -28,12 +28,12 @@ export const HeroCards = () => {
           </Avatar>
 
           <div className="flex flex-col">
-            <CardTitle className="text-lg">John Doe React</CardTitle>
-            <CardDescription>@john_doe</CardDescription>
+            <CardTitle className="text-lg">Jung User</CardTitle>
+            <CardDescription>@jung_user</CardDescription>
           </div>
         </CardHeader>
 
-        <CardContent>This landing page is awesome!</CardContent>
+        <CardContent>Jung has helped me track my mood and gain valuable insights into my mental health journey!</CardContent>
       </Card>
 
       {/* Team */}
@@ -44,16 +44,15 @@ export const HeroCards = () => {
             alt="user avatar"
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           />
-          <CardTitle className="text-center">Leo Miranda</CardTitle>
+          <CardTitle className="text-center">Founder</CardTitle>
           <CardDescription className="font-normal text-primary">
-            Frontend Developer
+            Mental Health Advocate
           </CardDescription>
         </CardHeader>
 
         <CardContent className="text-center pb-2">
           <p>
-            I really enjoy transforming ideas into functional software that
-            exceeds expectations
+            Passionate about creating technology that empowers people to take control of their mental wellbeing
           </p>
         </CardContent>
 
@@ -61,7 +60,7 @@ export const HeroCards = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa"
+              href="https://github.com/jung-life"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -73,7 +72,7 @@ export const HeroCards = () => {
             </a>
             <a
               rel="noreferrer noopener"
-              href="https://twitter.com/leo_mirand4"
+              href="mailto:founder@foreverjung.me"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -94,7 +93,7 @@ export const HeroCards = () => {
 
             <a
               rel="noreferrer noopener"
-              href="https://www.linkedin.com/in/leopoldo-miranda/"
+              href="mailto:founder@foreverjung.me"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -112,33 +111,33 @@ export const HeroCards = () => {
       <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <CardTitle className="flex item-center justify-between">
-            Free
+            Jung App
             <Badge
               variant="secondary"
               className="text-sm text-primary"
             >
-              Most popular
+              Download Free
             </Badge>
           </CardTitle>
           <div>
-            <span className="text-3xl font-bold">$0</span>
-            <span className="text-muted-foreground"> /month</span>
+            <span className="text-3xl font-bold">Free</span>
+            <span className="text-muted-foreground"> Mental Health Companion</span>
           </div>
 
           <CardDescription>
-            Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.
+            Start your mental wellness journey with Jung's AI-powered insights and mood tracking.
           </CardDescription>
         </CardHeader>
 
         <CardContent>
-          <Button className="w-full">Start Free Trial</Button>
+          <Button className="w-full">Download Jung</Button>
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />
 
         <CardFooter className="flex">
           <div className="space-y-4">
-            {["4 Team member", "4 GB Storage", "Upto 6 pages"].map(
+            {["AI Conversation Guides", "Mood Tracking", "Therapeutic Insights"].map(
               (benefit: string) => (
                 <span
                   key={benefit}
@@ -160,10 +159,9 @@ export const HeroCards = () => {
             <LightBulbIcon />
           </div>
           <div>
-            <CardTitle>Light & dark mode</CardTitle>
+            <CardTitle>Privacy First Design</CardTitle>
             <CardDescription className="text-md mt-2">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Consectetur
-              natusm.
+              Your mental health data stays private and secure with advanced encryption and local storage.
             </CardDescription>
           </div>
         </CardHeader>
