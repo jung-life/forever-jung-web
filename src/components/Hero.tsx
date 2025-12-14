@@ -12,17 +12,17 @@ export const Hero = () => {
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
               Jung
             </span>{" "}
-            Personal Development
+            Mental Health
           </h1>{" "}
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              App
+              Companion
             </span>
           </h2>
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          Explore your thoughts, set meaningful goals, and engage in deep self-reflection with AI-powered conversation guides designed for personal growth.
+          Track your mood, journal with AI guidance, and gain therapeutic insights with personalized mental health support designed for your wellbeing journey.
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">

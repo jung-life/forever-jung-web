@@ -20,14 +20,10 @@ export const About = () => {
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
                   About{" "}
                 </span>
-                Company
+                Jung
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit.
+                Jung is a comprehensive mental health companion designed to support your wellbeing journey through personalized AI guidance. Our app combines mood tracking, therapeutic insights, and meaningful conversation to help you understand yourself better and build emotional resilience. With privacy-first design and evidence-based approaches, Jung empowers you to take control of your mental health in a safe, supportive environment.
               </p>
             </div>
 

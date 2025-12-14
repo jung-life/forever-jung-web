@@ -18,35 +18,35 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "Mood Tracking & Analytics",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Track your daily mood patterns with location-aware insights and comprehensive analytics to understand your emotional wellbeing over time.",
     image: image4,
   },
   {
-    title: "Intuitive user interface",
+    title: "AI-Guided Journaling",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Engage with intelligent conversation guides including The Deep Thinker, Life Coach, Wise Sage, and Breakthrough Coach for meaningful self-reflection.",
     image: image3,
   },
   {
-    title: "AI-Powered insights",
+    title: "Therapeutic Insights",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Get personalized mental health insights, cognitive distortion checking, and thought pattern analysis to support your personal growth journey.",
     image: image,
   },
 ];
 
 const featureList: string[] = [
-  "Dark/Light theme",
-  "Reviews",
-  "Features",
-  "Pricing",
-  "Contact form",
-  "Our team",
-  "Responsive design",
-  "Newsletter",
-  "Minimalist",
+  "Mood Tracking",
+  "AI Conversation Guides",
+  "Daily Journaling",
+  "Cognitive Assessment",
+  "Therapeutic Insights",
+  "Voice Notes",
+  "Personal Dashboard",
+  "Privacy Focused",
+  "Cross-Platform",
 ];
 
 export const Features = () => {
@@ -56,9 +56,9 @@ export const Features = () => {
       className="container py-24 sm:py-32 space-y-8"
     >
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Many{" "}
+        Powerful{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Features
+          Mental Health Features
         </span>
       </h2>
 
