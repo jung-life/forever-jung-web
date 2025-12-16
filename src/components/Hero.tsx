@@ -22,7 +22,7 @@ export const Hero = () => {
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          <strong>10x scalable mental healthcare</strong> through breakthrough AI conversation therapy. Targeting the massive gap where 76% of Americans can't access mental health services, with a solution that delivers clinical-grade outcomes at consumer-friendly costs.
+          <strong>ChatGPT gives therapy advice. Jung reveals your unconscious patterns.</strong> The first AI trained specifically for depth psychology - not general assistance. Structured Shadow Work, Archetype Analysis, and Dream Integration that public LLMs cannot replicate.
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">

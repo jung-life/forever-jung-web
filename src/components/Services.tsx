@@ -10,21 +10,21 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "B2B2C Healthcare Integration ($50/session)",
+    title: "The Process™ vs Generic Prompts",
     description:
-      "Partner with health systems, insurance providers, and employers as the AI therapy solution. Target 500M+ Americans with employer-sponsored health benefits and 150M+ Medicare/Medicaid recipients.",
+      "Jung provides structured psychological frameworks that guide users through proven depth psychology methods. ChatGPT gives advice; Jung reveals unconscious patterns through systematic exploration that builds over time.",
     icon: <ChartIcon />,
   },
   {
-    title: "Direct-Pay Consumer Model ($29/month)",
+    title: "Therapeutic Memory vs Episodic Chat",
     description:
-      "Premium subscription for individuals seeking immediate access. Positioned between $200/session traditional therapy and free mental health apps. Target market: 50M+ Americans paying out-of-pocket for mental health.",
+      "Unlike public LLMs that forget context, Jung maintains your complete psychological profile. Recognizes patterns across months: 'This anger matches your pattern from 3 months ago - let's explore the deeper archetype.'",
     icon: <WalletIcon />,
   },
   {
-    title: "Clinical Licensing & API ($10K+ enterprise)",
+    title: "Sacred Space vs Office Tool",
     description:
-      "License our validated AI therapy engine to healthcare providers, telehealth platforms, and health tech companies. Recurring SaaS revenue from enterprise accounts with high switching costs.",
+      "Environment shapes consciousness. Jung creates a sanctuary for inner work with meditative pacing and archetypal design. ChatGPT feels like Excel; Jung feels like a temple. Your unconscious knows the difference.",
     icon: <MagnifierIcon />,
   },
 ];
@@ -36,13 +36,13 @@ export const Services = () => {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Revenue{" "}
+              Defensible{" "}
             </span>
-            Model
+            Advantages
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Multiple monetization streams targeting $30B+ addressable market with clear path to $100M+ ARR within 5 years through diversified B2B and B2C channels.
+            Jung's competitive moats that create sustainable barriers against both public LLMs and copycat apps. It's not just AI therapy - it's a proprietary psychological methodology.
           </p>
 
           <div className="flex flex-col gap-8">

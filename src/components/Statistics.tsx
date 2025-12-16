@@ -6,20 +6,20 @@ export const Statistics = () => {
 
   const stats: statsProps[] = [
     {
-      quantity: "89%",
-      description: "Beta User Satisfaction Rate",
+      quantity: "0%",
+      description: "ChatGPT Users Get Structured Shadow Work",
     },
     {
-      quantity: "76%",
-      description: "Americans Lack Mental Health Access",
+      quantity: "3+ Months",
+      description: "Jung's Therapeutic Memory vs ChatGPT's Episodic Chat",
     },
     {
-      quantity: "$280B",
-      description: "Annual Economic Impact",
+      quantity: "15+",
+      description: "Proprietary Psychology Frameworks",
     },
     {
-      quantity: "80%",
-      description: "Cost Reduction vs Traditional Therapy",
+      quantity: "100%",
+      description: "Privacy - Your Shadow Work Never Trains Public Models",
     },
   ];
 

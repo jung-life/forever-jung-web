@@ -18,35 +18,35 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Breakthrough AI Therapy Engine",
+    title: "The Jung Method™ - Structured Depth Psychology",
     description:
-      "First AI to achieve clinical-grade therapeutic outcomes. Proprietary transformer model trained on 50,000+ therapy sessions with real-time emotional intelligence, contextual memory spanning months, and personalized treatment plan generation.",
+      "Not general conversation, but systematic unconscious exploration. Proprietary framework guides users through Shadow Work stages, Anima/Animus integration, and Dream Symbol tracking that ChatGPT cannot replicate without years of specific training.",
     image: image4,
   },
   {
-    title: "FDA-Ready Clinical Validation",
+    title: "Therapeutic Memory & Pattern Recognition",
     description:
-      "IRB-approved clinical trials with 500+ participants showing non-inferiority to human therapists on validated scales (PHQ-9, GAD-7, Beck scales). Clear regulatory pathway as Software as Medical Device (SaMD).",
+      "Unlike episodic chatbots, Jung builds your psychological profile over months. Recognizes recurring themes, triggers, and growth patterns. 'You avoid conflict every Tuesday - this connects to your father dynamic from childhood.'",
     image: image3,
   },
   {
-    title: "Unbreachable Privacy Technology",
+    title: "The Sanctuary Experience vs Office Tool",
     description:
-      "Revolutionary federated learning with differential privacy ensures zero patient data exposure while continuously improving AI models. Patent-pending architecture addresses the fundamental privacy-performance trade-off in healthcare AI.",
+      "Designed for introspection, not productivity. Meditative pacing, archetypal imagery, ritual-like interactions. Your unconscious needs sacred space, not Slack. Environment matters for depth work - ChatGPT feels like work; Jung feels like therapy.",
     image: image,
   },
 ];
 
 const featureList: string[] = [
-  "Clinical-Grade AI",
-  "FDA Regulatory Path",
-  "Patent-Pending Tech",
-  "IRB-Approved Trials",
-  "Zero-Knowledge Privacy",
-  "Real-time Risk Detection",
-  "Multi-Language Support",
-  "Enterprise APIs",
-  "Healthcare Integration",
+  "Shadow Work Process™",
+  "Dream Symbol Tracking",
+  "Archetype Mapping",
+  "Pattern Recognition",
+  "Therapeutic Memory",
+  "Sanctuary UX Design",
+  "Privacy-First Vault",
+  "Structured Psychology",
+  "Depth over Breadth",
 ];
 
 export const Features = () => {
@@ -56,9 +56,9 @@ export const Features = () => {
       className="container py-24 sm:py-32 space-y-8"
     >
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Revolutionary{" "}
+        What ChatGPT{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          AI Technology Stack
+          Cannot Replicate
         </span>
       </h2>
 

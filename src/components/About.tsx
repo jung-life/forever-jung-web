@@ -18,18 +18,18 @@ export const About = () => {
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold">
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                  Massive Market{" "}
+                  Why Not{" "}
                 </span>
-                Opportunity
+                ChatGPT?
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                <strong>The Crisis:</strong> Mental health is America's #1 healthcare crisis. 76% lack access to care, 55% of counties have zero mental health providers, and waiting lists average 6+ weeks. Economic impact: $280B annually in lost productivity alone.
+                <strong>The "Agreeable Assistant" Problem:</strong> Public LLMs are trained to be helpful and polite, avoiding difficult truths. When you tell ChatGPT "I'm angry at my boss," it gives generic advice. Jung confronts you: <em>"What shadow aspect of yourself do you see in your boss? What pattern from childhood does this trigger?"</em>
               </p>
               <p className="text-xl text-muted-foreground mt-4">
-                <strong>Market Validation:</strong> Early prototype testing with 50+ beta users shows 89% satisfaction rate and measurable mood improvement within 2 weeks. Healthcare providers express strong interest in AI-assisted therapy solutions that maintain clinical efficacy while reducing costs by 80%.
+                <strong>The "Blank Page" Paralysis:</strong> 90% of people don't know how to start shadow work. ChatGPT offers a text box; Jung offers The Process™ - structured daily exercises, guided dream analysis, archetypal mapping, and progressive depth psychology that builds over months, not minutes.
               </p>
               <p className="text-xl text-muted-foreground mt-4">
-                <strong>Jung's Breakthrough:</strong> First AI system to pass clinical validation benchmarks (PHQ-9, GAD-7) with outcomes comparable to human therapists. Our proprietary conversational AI combines 15+ therapeutic frameworks with real-time emotional intelligence and personalized treatment planning.
+                <strong>The Memory Moat:</strong> ChatGPT forgets your patterns. Jung remembers everything - connecting dots across months: <em>"You felt this same rage 3 months ago with your father. This is your recurring Shadow projection. Let's work on integration."</em> Your unconscious patterns become visible over time.
               </p>
             </div>
 
