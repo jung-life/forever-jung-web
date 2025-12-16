@@ -1,4 +1,4 @@
-import { Button } from "./ui/button";
+import { Button, buttonVariants } from "./ui/button";
 
 export const Cta = () => {
   return (
@@ -21,13 +21,20 @@ export const Cta = () => {
         </div>
 
         <div className="space-y-4 lg:col-start-2">
-          <Button className="w-full md:mr-4 md:w-auto">Experience Jung Demo</Button>
-          <Button
-            variant="outline"
-            className="w-full md:w-auto"
+          <a
+            href="#features"
+            className={`w-full md:mr-4 md:w-auto ${buttonVariants()}`}
+          >
+            Experience Jung Demo
+          </a>
+          <a
+            href="#about"
+            className={`w-full md:w-auto ${buttonVariants({
+              variant: "outline",
+            })}`}
           >
             Why Not ChatGPT?
-          </Button>
+          </a>
         </div>
       </div>
     </section>
