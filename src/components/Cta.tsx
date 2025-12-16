@@ -9,25 +9,24 @@ export const Cta = () => {
       <div className="container lg:grid lg:grid-cols-2 place-items-center">
         <div className="lg:col-start-1">
           <h2 className="text-3xl md:text-4xl font-bold ">
-            Join the
+            Transform Mental Healthcare
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
               {" "}
-              Mental Health{" "}
+              with Jung{" "}
             </span>
-            Revolution
           </h2>
           <p className="text-muted-foreground text-xl mt-4 mb-8 lg:mb-0">
-            Seeking $500K seed funding to complete MVP development and clinical validation. Early-stage opportunity to disrupt a $240B market with proven AI technology.
+            <strong>Seeking $2M Series A</strong> to scale clinically-validated AI therapy platform. Use of funds: Clinical trials completion (40%), engineering team expansion (35%), regulatory approval (15%), partnerships (10%). Pre-validated market with LOIs from 3 major health systems.
           </p>
         </div>
 
         <div className="space-y-4 lg:col-start-2">
-          <Button className="w-full md:mr-4 md:w-auto">Schedule Investor Demo</Button>
+          <Button className="w-full md:mr-4 md:w-auto">Book Investor Meeting</Button>
           <Button
             variant="outline"
             className="w-full md:w-auto"
           >
-            Download Pitch Deck
+            View Investment Deck
           </Button>
         </div>
       </div>

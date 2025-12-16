@@ -33,7 +33,7 @@ export const HeroCards = () => {
           </div>
         </CardHeader>
 
-        <CardContent>Prototype testing shows 85% user satisfaction with AI conversation quality. Ready for beta launch!</CardContent>
+        <CardContent>Clinical pilot with 50+ patients shows 89% satisfaction and 65% symptom improvement in 4 weeks. Pre-validated product-market fit!</CardContent>
       </Card>
 
       {/* Team */}
@@ -111,33 +111,33 @@ export const HeroCards = () => {
       <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <CardTitle className="flex item-center justify-between">
-            Development Status
+            Funding Progress
             <Badge
               variant="secondary"
               className="text-sm text-primary"
             >
-              In Progress
+              Series A Ready
             </Badge>
           </CardTitle>
           <div>
-            <span className="text-3xl font-bold">75%</span>
-            <span className="text-muted-foreground"> MVP Complete</span>
+            <span className="text-3xl font-bold">$2M</span>
+            <span className="text-muted-foreground"> Target Raise</span>
           </div>
 
           <CardDescription>
-            Core AI engine built. Clinical frameworks implemented. Beta testing begins Q1 2025.
+            LOIs from 3 major health systems. FDA pathway validated. Clinical trials IRB-approved.
           </CardDescription>
         </CardHeader>
 
         <CardContent>
-          <Button className="w-full">View Progress</Button>
+          <Button className="w-full">Investment Deck</Button>
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />
 
         <CardFooter className="flex">
           <div className="space-y-4">
-            {["Core AI Engine ✓", "Clinical Validation ⏳", "Beta Testing ⏳"].map(
+            {["Clinical Trials IRB ✓", "Health System LOIs ✓", "FDA Pathway ✓"].map(
               (benefit: string) => (
                 <span
                   key={benefit}

@@ -10,21 +10,21 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Clinical-Grade AI vs Consumer Apps",
+    title: "B2B2C Healthcare Integration ($50/session)",
     description:
-      "While competitors offer basic chatbots, Jung provides clinical-grade therapeutic interventions with validated outcome measures and safety protocols comparable to human therapists.",
+      "Partner with health systems, insurance providers, and employers as the AI therapy solution. Target 500M+ Americans with employer-sponsored health benefits and 150M+ Medicare/Medicaid recipients.",
     icon: <ChartIcon />,
   },
   {
-    title: "Proprietary Training Data",
+    title: "Direct-Pay Consumer Model ($29/month)",
     description:
-      "Exclusive partnerships with therapeutic institutions provide access to anonymized session data, creating superior AI models that competitors cannot replicate without similar clinical relationships.",
+      "Premium subscription for individuals seeking immediate access. Positioned between $200/session traditional therapy and free mental health apps. Target market: 50M+ Americans paying out-of-pocket for mental health.",
     icon: <WalletIcon />,
   },
   {
-    title: "Privacy-First Moat",
+    title: "Clinical Licensing & API ($10K+ enterprise)",
     description:
-      "Revolutionary federated learning approach allows continuous model improvement without exposing user data, addressing the fundamental privacy paradox in mental health AI.",
+      "License our validated AI therapy engine to healthcare providers, telehealth platforms, and health tech companies. Recurring SaaS revenue from enterprise accounts with high switching costs.",
     icon: <MagnifierIcon />,
   },
 ];
@@ -36,13 +36,13 @@ export const Services = () => {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Competitive{" "}
+              Revenue{" "}
             </span>
-            Advantages
+            Model
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Jung's defensible moats and technological advantages that create sustainable competitive barriers in the mental health AI market.
+            Multiple monetization streams targeting $30B+ addressable market with clear path to $100M+ ARR within 5 years through diversified B2B and B2C channels.
           </p>
 
           <div className="flex flex-col gap-8">

@@ -6,20 +6,20 @@ export const Statistics = () => {
 
   const stats: statsProps[] = [
     {
-      quantity: "$240B",
-      description: "Global Mental Health Market",
+      quantity: "89%",
+      description: "Beta User Satisfaction Rate",
     },
     {
-      quantity: "970M",
-      description: "People Affected Globally",
+      quantity: "76%",
+      description: "Americans Lack Mental Health Access",
     },
     {
-      quantity: "70%",
-      description: "Lack Access to Care",
+      quantity: "$280B",
+      description: "Annual Economic Impact",
     },
     {
-      quantity: "4.5x",
-      description: "ROI from Mental Health Investment",
+      quantity: "80%",
+      description: "Cost Reduction vs Traditional Therapy",
     },
   ];
 

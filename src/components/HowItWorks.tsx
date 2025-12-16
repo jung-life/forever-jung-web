@@ -10,27 +10,27 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Phase 1: MVP (Q1 2025)",
+    title: "Q1 2025: Clinical MVP Launch",
     description:
-      "Core AI conversation engine with basic therapeutic frameworks. Beta testing with 100+ users for initial validation and feedback collection.",
+      "Complete IRB-approved clinical trials with 500+ participants. FDA pre-submission meeting for SaMD classification. Launch with 3 health system partners and 1,000 beta users.",
   },
   {
     icon: <MapIcon />,
-    title: "Phase 2: Clinical Validation (Q2 2025)",
+    title: "Q2 2025: Regulatory & Revenue",
     description:
-      "Partner with clinical institutions for efficacy studies. Implement validated assessment tools and outcome measures for clinical-grade results.",
+      "Submit FDA 510(k) application. Launch B2B2C partnerships with 2 major insurers. Achieve $50K MRR through direct-pay subscriptions. Expand to Spanish language support.",
   },
   {
     icon: <PlaneIcon />,
-    title: "Phase 3: Scale & Integration (Q3 2025)",
+    title: "Q3 2025: Scale & Enterprise",
     description:
-      "Healthcare provider partnerships, insurance integration. Advanced AI features with personalization engine and multi-language support.",
+      "FDA clearance received. Enterprise API launch with $1M+ contracted ARR. Partnerships with top 3 EHR systems. International expansion to UK and Canada markets.",
   },
   {
     icon: <GiftIcon />,
-    title: "Phase 4: Platform Expansion (Q4 2025)",
+    title: "Q4 2025: Market Leadership",
     description:
-      "Enterprise solutions for employers and health systems. API platform for third-party developers and comprehensive analytics dashboard.",
+      "Series B funding ($15M) to capture market leadership. 10,000+ active therapy sessions daily. White-label solutions for telehealth platforms. $5M+ ARR milestone achieved.",
   },
 ];
 

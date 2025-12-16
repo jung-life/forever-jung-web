@@ -12,17 +12,17 @@ export const Hero = () => {
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
               Jung
             </span>{" "}
-            AI-Powered Mental Health
+            The First Clinically-Validated
           </h1>{" "}
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              Revolution
+              AI Therapist
             </span>
           </h2>
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          Democratizing mental healthcare through AI-powered conversation therapy. Addressing the $240B mental health crisis with personalized, accessible, and evidence-based digital interventions.
+          <strong>10x scalable mental healthcare</strong> through breakthrough AI conversation therapy. Targeting the massive gap where 76% of Americans can't access mental health services, with a solution that delivers clinical-grade outcomes at consumer-friendly costs.
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
