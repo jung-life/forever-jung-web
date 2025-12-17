@@ -21,19 +21,19 @@ const features: FeatureProps[] = [
     title: "The Jung Method™ - Structured Depth Psychology",
     description:
       "Not general conversation, but systematic unconscious exploration. Proprietary framework guides users through Shadow Work stages, Anima/Animus integration, and Dream Symbol tracking that ChatGPT cannot replicate without years of specific training.",
-    image: image4,
+    image: image,
   },
   {
     title: "Therapeutic Memory & Pattern Recognition",
     description:
       "Unlike episodic chatbots, Jung builds your psychological profile over months. Recognizes recurring themes, triggers, and growth patterns. 'You avoid conflict every Tuesday - this connects to your father dynamic from childhood.'",
-    image: image3,
+    image: image4,
   },
   {
     title: "The Sanctuary Experience vs Office Tool",
     description:
       "Designed for introspection, not productivity. Meditative pacing, archetypal imagery, ritual-like interactions. Your unconscious needs sacred space, not Slack. Environment matters for depth work - ChatGPT feels like work; Jung feels like therapy.",
-    image: image,
+    image: image3,
   },
 ];
 
