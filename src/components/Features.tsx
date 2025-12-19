@@ -6,9 +6,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import image from "../assets/growth.png";
-import image3 from "../assets/reflecting.png";
-import image4 from "../assets/looking-ahead.png";
+import jungLogo from "../assets/jung-app-log.png";
+import lighthouse from "../assets/lighthouse.png";
+import iconImage from "../assets/icon.png";
 
 interface FeatureProps {
   title: string;
@@ -21,19 +21,19 @@ const features: FeatureProps[] = [
     title: "The Jung Method™ - Structured Depth Psychology",
     description:
       "Not general conversation, but systematic unconscious exploration. Proprietary framework guides users through Shadow Work stages, Anima/Animus integration, and Dream Symbol tracking that ChatGPT cannot replicate without years of specific training.",
-    image: image,
+    image: jungLogo,
   },
   {
     title: "Therapeutic Memory & Pattern Recognition",
     description:
       "Unlike episodic chatbots, Jung builds your psychological profile over months. Recognizes recurring themes, triggers, and growth patterns. 'You avoid conflict every Tuesday - this connects to your father dynamic from childhood.'",
-    image: image4,
+    image: iconImage,
   },
   {
     title: "The Sanctuary Experience vs Office Tool",
     description:
       "Designed for introspection, not productivity. Meditative pacing, archetypal imagery, ritual-like interactions. Your unconscious needs sacred space, not Slack. Environment matters for depth work - ChatGPT feels like work; Jung feels like therapy.",
-    image: image3,
+    image: lighthouse,
   },
 ];
 
