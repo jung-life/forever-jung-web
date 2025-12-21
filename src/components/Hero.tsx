@@ -11,17 +11,17 @@ export const Hero = () => {
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
               Jung
             </span>{" "}
-            The First Clinically-Validated
+            The First Depth Psychology
           </h1>{" "}
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              AI Therapist
+              AI Guide
             </span>
           </h2>
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          <strong>ChatGPT gives therapy advice. Jung reveals your unconscious patterns.</strong> The first AI trained specifically for depth psychology - not general assistance. Structured Shadow Work, Archetype Analysis, and Dream Integration that public LLMs cannot replicate.
+          <strong>ChatGPT gives general advice. Jung reveals your unconscious patterns.</strong> The first AI trained specifically for depth psychology - not general assistance. Structured Shadow Work, Archetype Analysis, and Dream Integration that public LLMs cannot replicate.
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">

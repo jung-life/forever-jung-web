@@ -24,7 +24,7 @@ const features: FeatureProps[] = [
     image: jungLogo,
   },
   {
-    title: "Therapeutic Memory & Pattern Recognition",
+    title: "Reflective Memory & Pattern Recognition",
     description:
       "Unlike episodic chatbots, Jung builds your psychological profile over months. Recognizes recurring themes, triggers, and growth patterns. 'You avoid conflict every Tuesday - this connects to your father dynamic from childhood.'",
     image: iconImage,
@@ -32,7 +32,7 @@ const features: FeatureProps[] = [
   {
     title: "The Sanctuary Experience vs Office Tool",
     description:
-      "Designed for introspection, not productivity. Meditative pacing, archetypal imagery, ritual-like interactions. Your unconscious needs sacred space, not Slack. Environment matters for depth work - ChatGPT feels like work; Jung feels like therapy.",
+      "Designed for introspection, not productivity. Meditative pacing, archetypal imagery, ritual-like interactions. Your unconscious needs sacred space, not Slack. Environment matters for depth work - ChatGPT feels like work; Jung feels like reflective guidance.",
     image: lighthouse,
   },
 ];
@@ -42,7 +42,7 @@ const featureList: string[] = [
   "Dream Symbol Tracking",
   "Archetype Mapping",
   "Pattern Recognition",
-  "Therapeutic Memory",
+  "Reflective Memory",
   "Sanctuary UX Design",
   "Privacy-First Vault",
   "Structured Psychology",

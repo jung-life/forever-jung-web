@@ -10,9 +10,9 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Q1 2025: Clinical MVP Launch",
+    title: "Q1 2025: Public Beta Launch",
     description:
-      "Complete IRB-approved clinical trials with 500+ participants. FDA pre-submission meeting for SaMD classification. Launch with 3 health system partners and 1,000 beta users.",
+      "Complete comprehensive beta testing with 500+ participants. Framework validation completed. Launch with 3 wellness platform partners and 1,000 beta users.",
   },
   {
     icon: <MapIcon />,
@@ -30,7 +30,7 @@ const features: FeatureProps[] = [
     icon: <GiftIcon />,
     title: "Q4 2025: Market Leadership",
     description:
-      "Series B funding ($15M) to capture market leadership. 10,000+ active therapy sessions daily. White-label solutions for telehealth platforms. $5M+ ARR milestone achieved.",
+      "Series B funding ($15M) to capture market leadership. 10,000+ active guidance sessions daily. White-label solutions for wellness platforms. $5M+ ARR milestone achieved.",
   },
 ];
 

@@ -1,4 +1,4 @@
-import { LogoIcon } from "./Icons";
+import { LogoHeader } from "./LogoHeader";
 
 export const Footer = () => {
   return (
@@ -7,14 +7,7 @@ export const Footer = () => {
 
       <section className="container py-20 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8">
         <div className="col-span-full xl:col-span-2">
-          <a
-            rel="noreferrer noopener"
-            href="/"
-            className="font-bold text-xl flex"
-          >
-            <LogoIcon />
-            Jung
-          </a>
+          <LogoHeader />
         </div>
 
         <div className="flex flex-col gap-2">
@@ -150,9 +143,17 @@ export const Footer = () => {
         </div>
       </section>
 
-      <section className="container pb-14 text-center">
+      <section className="container pb-14 text-center space-y-4">
+        <div className="text-sm text-muted-foreground max-w-4xl mx-auto">
+          <p className="font-semibold">Non-Medical Disclaimer:</p>
+          <p>
+            Jung is a personal development and self-reflection tool designed to help users explore their thoughts and patterns through depth psychology concepts.
+            This application is not intended to provide medical advice, diagnosis, or treatment. Jung is not a substitute for professional mental health services,
+            therapy, or medical care. If you are experiencing mental health concerns, please consult with a qualified healthcare provider or mental health professional.
+          </p>
+        </div>
         <h3>
-          &copy; 2024 Jung Mental Health Companion by{" "}
+          &copy; 2024 Jung Personal Development Companion by{" "}
           <a
             href="mailto:founder@foreverjung.me"
             className="text-primary transition-all border-primary hover:border-b-2"

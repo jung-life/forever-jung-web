@@ -16,7 +16,7 @@ export const Cta = () => {
             </span>
           </h2>
           <p className="text-muted-foreground text-xl mt-4 mb-8 lg:mb-0">
-            <strong>The difference:</strong> Generic AI therapy = "Have you tried meditation?" Jung's depth psychology = "What childhood wound is this anger protecting? Which archetype is running your life?" Experience structured unconscious exploration, not helpful suggestions.
+            <strong>The difference:</strong> Generic AI guidance = "Have you tried meditation?" Jung's depth psychology = "What childhood wound is this anger protecting? Which archetype is running your life?" Experience structured unconscious exploration, not helpful suggestions.
           </p>
         </div>
 

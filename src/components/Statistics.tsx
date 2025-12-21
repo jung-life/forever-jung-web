@@ -11,7 +11,7 @@ export const Statistics = () => {
     },
     {
       quantity: "3+ Months",
-      description: "Jung's Therapeutic Memory vs ChatGPT's Episodic Chat",
+      description: "Jung's Reflective Memory vs ChatGPT's Episodic Chat",
     },
     {
       quantity: "15+",

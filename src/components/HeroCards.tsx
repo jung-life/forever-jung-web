@@ -33,7 +33,7 @@ export const HeroCards = () => {
           </div>
         </CardHeader>
 
-        <CardContent>Clinical pilot with 50+ patients shows 89% satisfaction and 65% symptom improvement in 4 weeks. Pre-validated product-market fit!</CardContent>
+        <CardContent>Beta program with 50+ users shows 89% satisfaction and 65% wellbeing improvement in 4 weeks. Pre-validated product-market fit!</CardContent>
       </Card>
 
       {/* Team */}
@@ -125,7 +125,7 @@ export const HeroCards = () => {
           </div>
 
           <CardDescription>
-            LOIs from 3 major health systems. FDA pathway validated. Clinical trials IRB-approved.
+            LOIs from 3 major wellness platforms. Personal development framework validated. Beta testing completed.
           </CardDescription>
         </CardHeader>
 
@@ -142,7 +142,7 @@ export const HeroCards = () => {
 
         <CardFooter className="flex">
           <div className="space-y-4">
-            {["Clinical Trials IRB ✓", "Health System LOIs ✓", "FDA Pathway ✓"].map(
+            {["Beta Testing ✓", "Wellness Platform LOIs ✓", "Framework Validated ✓"].map(
               (benefit: string) => (
                 <span
                   key={benefit}

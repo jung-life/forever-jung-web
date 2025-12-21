@@ -16,7 +16,7 @@ const serviceList: ServiceProps[] = [
     icon: <ChartIcon />,
   },
   {
-    title: "Therapeutic Memory vs Episodic Chat",
+    title: "Reflective Memory vs Episodic Chat",
     description:
       "Unlike public LLMs that forget context, Jung maintains your complete psychological profile. Recognizes patterns across months: 'This anger matches your pattern from 3 months ago - let's explore the deeper archetype.'",
     icon: <WalletIcon />,
@@ -42,7 +42,7 @@ export const Services = () => {
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Jung's competitive moats that create sustainable barriers against both public LLMs and copycat apps. It's not just AI therapy - it's a proprietary psychological methodology.
+            Jung's competitive moats that create sustainable barriers against both public LLMs and copycat apps. It's not just AI guidance - it's a proprietary psychological methodology.
           </p>
 
           <div className="flex flex-col gap-8">
