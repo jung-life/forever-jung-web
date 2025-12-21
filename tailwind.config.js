@@ -50,6 +50,14 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        brand: {
+          sage: 'hsl(155, 30%, 35%)',   // Deep Green
+          stone: 'hsl(150, 10%, 90%)',  // Text/icon color
+        },
+      },
+      fontFamily: {
+        'heading': ['Cormorant Garamond', 'serif'],
+        'sans': ['Proza Libre', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",

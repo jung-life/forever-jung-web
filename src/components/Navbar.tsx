@@ -16,7 +16,7 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
-import { LogoIcon } from "./Icons";
+import { LogoHeader } from "./LogoHeader";
 
 interface RouteProps {
   href: string;
@@ -45,14 +45,7 @@ export const Navbar = () => {
       <NavigationMenu className="mx-auto">
         <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
-            <a
-              rel="noreferrer noopener"
-              href="/"
-              className="ml-2 font-bold text-xl flex"
-            >
-              <LogoIcon />
-              Forever Jung
-            </a>
+            <LogoHeader />
           </NavigationMenuItem>
 
           {/* mobile */}
@@ -74,7 +67,7 @@ export const Navbar = () => {
 
               <SheetContent side={"left"}>
                 <SheetHeader>
-                  <SheetTitle className="font-bold text-xl">
+                  <SheetTitle className="font-heading font-bold text-xl tracking-wider">
                     Forever Jung
                   </SheetTitle>
                 </SheetHeader>
@@ -125,7 +118,7 @@ export const Navbar = () => {
           <div className="hidden md:flex gap-2">
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+              href="https://github.com/jung-life/forever-jung-web"
               target="_blank"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >
