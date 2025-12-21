@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/card";
 import jungLogo from "../assets/jung-app-log.png";
 import lighthouse from "../assets/lighthouse.png";
-import iconImage from "../assets/icon.png";
+import appIcon from "../assets/app-icon.png";
 
 interface FeatureProps {
   title: string;
@@ -27,7 +27,7 @@ const features: FeatureProps[] = [
     title: "Reflective Memory & Pattern Recognition",
     description:
       "Unlike episodic chatbots, Jung builds your psychological profile over months. Recognizes recurring themes, triggers, and growth patterns. 'You avoid conflict every Tuesday - this connects to your father dynamic from childhood.'",
-    image: iconImage,
+    image: appIcon,
   },
   {
     title: "The Sanctuary Experience vs Office Tool",
