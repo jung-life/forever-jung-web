@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Check, X } from "lucide-react";
 
@@ -71,7 +71,7 @@ export const WhyPay = () => {
           </div>
 
           {/* Comparison Rows */}
-          {comparisonData.map(({ feature, chatgpt, foreverjung }, index) => (
+          {comparisonData.map(({ feature, chatgpt, foreverjung }) => (
             <div key={feature} className="lg:contents">
               <div className="lg:hidden mb-6">
                 <h4 className="font-semibold mb-2">{feature}</h4>
