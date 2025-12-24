@@ -55,7 +55,7 @@ export const Features = () => {
       id="features"
       className="container py-24 sm:py-32 space-y-8"
     >
-      <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
+      <h2 className="text-3xl md:text-4xl font-bold font-heading md:text-center">
         What ChatGPT{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           Cannot Replicate
@@ -79,16 +79,18 @@ export const Features = () => {
         {features.map(({ title, description, image }: FeatureProps) => (
           <Card key={title}>
             <CardHeader>
-              <CardTitle>{title}</CardTitle>
+              <CardTitle className="font-heading text-xl">{title}</CardTitle>
             </CardHeader>
 
-            <CardContent>{description}</CardContent>
+            <CardContent>
+              <p className="text-muted-foreground font-sans leading-relaxed">{description}</p>
+            </CardContent>
 
             <CardFooter>
               <img
                 src={image}
-                alt="About feature"
-                className="w-[200px] lg:w-[300px] mx-auto"
+                alt="Feature illustration"
+                className="w-[240px] h-[180px] object-contain mx-auto"
               />
             </CardFooter>
           </Card>

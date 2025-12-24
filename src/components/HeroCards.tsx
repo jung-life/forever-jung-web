@@ -1,106 +1,29 @@
-import { buttonVariants } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-  CardFooter,
-} from "@/components/ui/card";
-import { Linkedin } from "lucide-react";
-import { LightBulbIcon } from "./Icons";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import appIcon from "../assets/app-icon.png";
 
 export const HeroCards = () => {
   return (
-    <div className="hidden lg:flex flex-row flex-wrap gap-8 relative w-[700px] h-[500px]">
-
-      {/* Team */}
-      <Card className="absolute right-[20px] top-4 w-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10">
-        <CardHeader className="mt-8 flex justify-center items-center pb-2">
+    <div className="hidden lg:flex justify-center items-center w-[500px] h-[500px]">
+      <div className="text-center space-y-8">
+        {/* Forever Jung App Logo */}
+        <div className="flex justify-center">
           <img
-            src="https://i.pravatar.cc/150?img=58"
-            alt="user avatar"
-            className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
+            src={appIcon}
+            alt="Forever Jung App Icon"
+            className="w-48 h-48 object-contain drop-shadow-2xl"
           />
-          <CardTitle className="text-center">Founder</CardTitle>
-          <CardDescription className="font-normal text-primary">
-            Mental Health Advocate
-          </CardDescription>
-        </CardHeader>
+        </div>
 
-        <CardContent className="text-center pb-2">
-          <p>
-            Passionate about creating technology that empowers people to take control of their mental wellbeing
+        {/* App Description */}
+        <div className="space-y-4">
+          <h3 className="text-2xl font-bold font-heading text-foreground">
+            The Forever Jung App
+          </h3>
+          <p className="text-lg text-muted-foreground max-w-md mx-auto font-sans leading-relaxed">
+            Executive depth psychology program. Systematic shadow integration for leaders.
+            Coming soon to iOS and Android.
           </p>
-        </CardContent>
-
-        <CardFooter>
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="https://github.com/jung-life"
-              target="_blank"
-              className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
-              })}
-            >
-              <span className="sr-only">Github icon</span>
-              <GitHubLogoIcon className="w-5 h-5" />
-            </a>
-            <a
-              rel="noreferrer noopener"
-              href="mailto:founder@foreverjung.me"
-              target="_blank"
-              className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
-              })}
-            >
-              <span className="sr-only">X icon</span>
-              <svg
-                role="img"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                className="fill-foreground w-5 h-5"
-              >
-                <title>X</title>
-                <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
-              </svg>
-            </a>
-
-            <a
-              rel="noreferrer noopener"
-              href="mailto:founder@foreverjung.me"
-              target="_blank"
-              className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
-              })}
-            >
-              <span className="sr-only">Linkedin icon</span>
-              <Linkedin size="20" />
-            </a>
-          </div>
-        </CardFooter>
-      </Card>
-
-
-      {/* Service */}
-      <Card className="absolute w-[350px] -right-[10px] bottom-[35px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
-        <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
-          <div className="mt-1 bg-primary/20 p-1 rounded-2xl">
-            <LightBulbIcon />
-          </div>
-          <div>
-            <CardTitle>Privacy First Design</CardTitle>
-            <CardDescription className="text-md mt-2">
-              Your mental health data stays private and secure with advanced encryption and local storage.
-            </CardDescription>
-          </div>
-        </CardHeader>
-      </Card>
+        </div>
+      </div>
     </div>
   );
 };

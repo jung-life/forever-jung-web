@@ -19,16 +19,22 @@ export const Hero = () => {
           </h2>
         </main>
 
-        <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          Don't just chat. Follow a structured path to self-discovery. Privacy-first Shadow Work, Dream Analysis, and Stoic Resilience. Your data stays encrypted. Your progress stays tracked.
+        <p className="text-lg text-muted-foreground md:w-10/12 mx-auto lg:mx-0 font-sans leading-relaxed">
+          Executive coaching for your unconscious. A structured program for high-performers seeking psychological depth. Private, systematic, transformative. Your inner work deserves the same rigor as your business strategy.
         </p>
 
-        <div className="space-y-4 md:space-y-0 md:space-x-4">
+        <div className="space-y-4 md:space-y-0 md:space-x-4 flex flex-col md:flex-row">
           <a
             href="#about"
-            className={`w-full md:w-1/3 ${buttonVariants()}`}
+            className={`w-full md:w-1/3 ${buttonVariants({ variant: "outline" })}`}
           >
             Learn More
+          </a>
+          <a
+            href="#threshold"
+            className={`w-full md:w-1/3 ${buttonVariants()} bg-purple-600 hover:bg-purple-700`}
+          >
+            Try The Threshold
           </a>
         </div>
       </div>

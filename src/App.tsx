@@ -9,10 +9,10 @@ import { Navbar } from "./components/Navbar";
 import { Newsletter } from "./components/Newsletter";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { Services } from "./components/Services";
-import { Sponsors } from "./components/Sponsors";
 import { Manifesto } from "./components/Manifesto";
 import { Mission } from "./components/Mission";
 import { WhyPay } from "./components/WhyPay";
+import { ThresholdFlow } from "./components/ThresholdFlow";
 import "./App.css";
 
 function App() {
@@ -20,7 +20,6 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Sponsors />
       <About />
       <HowItWorks />
       <Features />
@@ -29,6 +28,9 @@ function App() {
       <Mission />
       <WhyPay />
       <Manifesto />
+      <section id="threshold" className="py-24">
+        <ThresholdFlow />
+      </section>
       <Newsletter />
       <FAQ />
       <Footer />

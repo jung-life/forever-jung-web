@@ -34,14 +34,14 @@ export const Services = () => {
     <section className="container py-24 sm:py-32">
       <div className="grid lg:grid-cols-[1fr,1fr] gap-8 place-items-center">
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold">
+          <h2 className="text-3xl md:text-4xl font-bold font-heading">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
               Defensible{" "}
             </span>
             Advantages
           </h2>
 
-          <p className="text-muted-foreground text-xl mt-4 mb-8 ">
+          <p className="text-muted-foreground text-lg mt-4 mb-8 font-sans leading-relaxed">
             Jung's competitive moats that create sustainable barriers against both public LLMs and copycat apps. It's not just AI guidance - it's a proprietary psychological methodology.
           </p>
 
@@ -53,8 +53,8 @@ export const Services = () => {
                     {icon}
                   </div>
                   <div>
-                    <CardTitle>{title}</CardTitle>
-                    <CardDescription className="text-md mt-2">
+                    <CardTitle className="font-heading text-xl">{title}</CardTitle>
+                    <CardDescription className="text-md mt-2 font-sans leading-relaxed">
                       {description}
                     </CardDescription>
                   </div>
@@ -66,8 +66,8 @@ export const Services = () => {
 
         <img
           src={jungLogo}
-          className="w-[300px] md:w-[500px] lg:w-[600px] object-contain"
-          alt="About services"
+          className="w-[320px] h-[320px] md:w-[400px] md:h-[400px] lg:w-[480px] lg:h-[480px] object-contain"
+          alt="Jung methodology illustration"
         />
       </div>
     </section>
