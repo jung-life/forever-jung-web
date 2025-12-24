@@ -13,6 +13,7 @@ import { Manifesto } from "./components/Manifesto";
 import { Mission } from "./components/Mission";
 import { WhyPay } from "./components/WhyPay";
 import { ThresholdFlow } from "./components/ThresholdFlow";
+import { Psychology } from "./components/Psychology";
 import "./App.css";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <About />
       <HowItWorks />
       <Features />
+      <Psychology />
       <Services />
       <Cta />
       <Mission />
