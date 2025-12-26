@@ -11,34 +11,37 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Follow US</h3>
+          <h3 className="font-bold text-lg">Open Source</h3>
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://github.com/jung-life/forever-jung-web"
+              target="_blank"
               className="opacity-60 hover:opacity-100"
             >
-              Github
+              View Source
             </a>
           </div>
 
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://github.com/jung-life/forever-jung-web/issues"
+              target="_blank"
               className="opacity-60 hover:opacity-100"
             >
-              Twitter
+              Report Issues
             </a>
           </div>
 
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://github.com/jung-life/forever-jung-web/blob/main/CONTRIBUTING.md"
+              target="_blank"
               className="opacity-60 hover:opacity-100"
             >
-              Dribbble
+              Contribute
             </a>
           </div>
         </div>
