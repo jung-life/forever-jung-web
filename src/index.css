@@ -82,6 +82,19 @@
     @apply font-sans;
     -webkit-font-smoothing: antialiased;
   }
+
+  /* Consistent quote styling */
+  strong {
+    font-weight: 600;
+    color: hsl(var(--foreground));
+  }
+
+  /* Remove italics from emphasis for cleaner look */
+  em {
+    font-style: normal;
+    font-weight: 500;
+    color: hsl(var(--foreground));
+  }
 }
 
 html {
