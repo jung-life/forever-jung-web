@@ -57,7 +57,7 @@ module.exports = {
       },
       fontFamily: {
         'heading': ['Cormorant Garamond', 'serif'],
-        'sans': ['Proza Libre', 'system-ui', 'sans-serif'],
+        'sans': ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Arial', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",

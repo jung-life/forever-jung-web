@@ -95,6 +95,18 @@
     font-weight: 500;
     color: hsl(var(--foreground));
   }
+
+  /* Force straight quotes - disable smart quotes */
+  * {
+    quotes: '"' '"' "'" "'";
+    font-feature-settings: "kern" 1, "liga" 0;
+  }
+
+  /* Disable automatic quote conversion */
+  body {
+    font-variant-ligatures: none;
+    text-rendering: optimizeLegibility;
+  }
 }
 
 html {
