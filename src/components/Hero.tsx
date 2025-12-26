@@ -19,7 +19,7 @@ export const Hero = () => {
           </h2>
         </main>
 
-        <p className="text-lg text-muted-foreground md:w-10/12 mx-auto lg:mx-0 font-sans leading-relaxed">
+        <p className="text-lg text-muted-foreground md:w-10/12 mx-auto lg:mx-0 font-sans leading-normal">
           Executive coaching for your unconscious. A structured program for high-performers seeking psychological depth. Private, systematic, transformative. Your inner work deserves the same rigor as your business strategy.
         </p>
 

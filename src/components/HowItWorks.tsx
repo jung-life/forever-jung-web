@@ -47,7 +47,7 @@ export const HowItWorks = () => {
         </span>
         & Growth
       </h2>
-      <p className="md:w-3/4 mx-auto mt-4 mb-8 text-lg text-muted-foreground font-sans leading-relaxed">
+      <p className="md:w-3/4 mx-auto mt-4 mb-8 text-lg text-muted-foreground font-sans leading-normal">
         Our focused product roadmap emphasizes depth psychology features and user experience improvements, building the most sophisticated platform for structured self-discovery.
       </p>
 

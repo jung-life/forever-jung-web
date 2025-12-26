@@ -70,7 +70,7 @@
   }
 
   p {
-    @apply font-sans leading-relaxed;
+    @apply font-sans leading-normal;
   }
 
   img {

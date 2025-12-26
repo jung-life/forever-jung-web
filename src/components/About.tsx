@@ -22,13 +22,13 @@ export const About = () => {
                 </span>
                 ChatGPT?
               </h2>
-              <p className="text-lg text-muted-foreground mt-4 font-sans leading-relaxed">
+              <p className="text-lg text-muted-foreground mt-4 font-sans leading-normal">
                 <strong>The "Agreeable Assistant" Problem:</strong> Public LLMs are trained to be helpful and polite, avoiding difficult truths. When you tell ChatGPT "I'm frustrated with my team," it gives generic management advice. Jung challenges you: <em>"What leadership shadow are you projecting? What unintegrated aspect drives this reaction?"</em>
               </p>
-              <p className="text-lg text-muted-foreground mt-4 font-sans leading-relaxed">
+              <p className="text-lg text-muted-foreground mt-4 font-sans leading-normal">
                 <strong>The "Blank Page" Paralysis:</strong> High-performers know they need deeper self-awareness but don't know where to start. ChatGPT offers a text box; Jung offers The Process™ - structured executive coaching protocols, systematic pattern recognition, and progressive leadership psychology that builds competence over months.
               </p>
-              <p className="text-lg text-muted-foreground mt-4 font-sans leading-relaxed">
+              <p className="text-lg text-muted-foreground mt-4 font-sans leading-normal">
                 <strong>The Memory Moat:</strong> ChatGPT forgets your patterns. Jung tracks your leadership evolution - connecting behavioral patterns across quarters: <em>"This decision paralysis matches your pattern from Q2. Your inner Perfectionist is blocking your Visionary. Let's integrate both."</em> Executive growth becomes measurable over time.
               </p>
             </div>

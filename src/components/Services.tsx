@@ -41,7 +41,7 @@ export const Services = () => {
             Advantages
           </h2>
 
-          <p className="text-muted-foreground text-lg mt-4 mb-8 font-sans leading-relaxed">
+          <p className="text-muted-foreground text-lg mt-4 mb-8 font-sans leading-normal">
             Jung's competitive moats that create sustainable barriers against both public LLMs and copycat apps. It's not just AI guidance - it's a proprietary psychological methodology.
           </p>
 
@@ -54,7 +54,7 @@ export const Services = () => {
                   </div>
                   <div>
                     <CardTitle className="font-heading text-xl">{title}</CardTitle>
-                    <CardDescription className="text-md mt-2 font-sans leading-relaxed">
+                    <CardDescription className="text-md mt-2 font-sans leading-normal">
                       {description}
                     </CardDescription>
                   </div>

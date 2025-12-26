@@ -83,7 +83,7 @@ export const Features = () => {
             </CardHeader>
 
             <CardContent>
-              <p className="text-muted-foreground font-sans leading-relaxed">{description}</p>
+              <p className="text-muted-foreground font-sans leading-normal">{description}</p>
             </CardContent>
 
             <CardFooter>
