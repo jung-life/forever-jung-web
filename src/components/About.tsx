@@ -1,5 +1,7 @@
 import { Statistics } from "./Statistics";
 import lighthouse from "../assets/lighthouse.png";
+import comparisonVideo from "../assets/LLM_Interaction_Depth_Comparison_Video.mp4";
+import depthComparison from "../assets/depth-comparison.png";
 
 export const About = () => {
   return (
@@ -22,6 +24,12 @@ export const About = () => {
                 </span>
                 from Consumer AI?
               </h2>
+
+              <div className="bg-muted/20 rounded-lg p-4 mb-8">
+                <p className="text-sm text-muted-foreground font-sans leading-relaxed">
+                  <span className="font-medium text-foreground">Consumer AI</span> refers to general-purpose AI tools like ChatGPT, Claude, and Gemini — designed for the mass market to be helpful, agreeable, and handle any task you throw at them.
+                </p>
+              </div>
 
               <div className="space-y-8 mt-6">
                 <div>
@@ -95,6 +103,39 @@ export const About = () => {
                       </tbody>
                     </table>
                   </div>
+                </div>
+
+                {/* Depth Comparison Visual */}
+                <div className="bg-muted/30 rounded-lg p-6 mt-8">
+                  <h3 className="text-lg font-semibold font-sans mb-4 text-center text-foreground">The Depth Difference</h3>
+                  <div className="rounded-lg overflow-hidden">
+                    <img
+                      src={depthComparison}
+                      alt="Iceberg comparison showing Public LLMs staying on surface while Forever Jung explores the unconscious depths"
+                      className="w-full h-auto object-contain"
+                    />
+                  </div>
+                  <p className="text-sm text-muted-foreground font-sans text-center mt-4">
+                    Public LLMs operate at surface level while Jung explores the unconscious depths of leadership psychology
+                  </p>
+                </div>
+
+                {/* Video Demonstration */}
+                <div className="bg-muted/30 rounded-lg p-6 mt-8">
+                  <h3 className="text-lg font-semibold font-sans mb-4 text-center text-foreground">See the Difference in Action</h3>
+                  <div className="aspect-video rounded-lg overflow-hidden bg-black/10">
+                    <video
+                      controls
+                      className="w-full h-full object-cover"
+                      poster="/api/placeholder/800/450"
+                    >
+                      <source src={comparisonVideo} type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <p className="text-sm text-muted-foreground font-sans text-center mt-4">
+                    Interactive depth comparison: Consumer AI vs Jung's structured psychological approach
+                  </p>
                 </div>
               </div>
             </div>
