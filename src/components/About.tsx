@@ -18,19 +18,85 @@ export const About = () => {
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold font-heading">
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                  Why Not{" "}
+                  Why Not Just Use{" "}
                 </span>
                 ChatGPT?
               </h2>
-              <p className="text-lg text-muted-foreground mt-4 font-sans leading-normal">
-                <strong>The "Agreeable Assistant" Problem:</strong> Public LLMs are trained to be helpful and polite, avoiding difficult truths. When you tell ChatGPT "I'm frustrated with my team," it gives generic management advice. Jung challenges you: "What leadership shadow are you projecting? What unintegrated aspect drives this reaction?"
-              </p>
-              <p className="text-lg text-muted-foreground mt-4 font-sans leading-normal">
-                <strong>The "Blank Page" Paralysis:</strong> High-performers know they need deeper self-awareness but don't know where to start. ChatGPT offers a text box; Jung offers The Process™ - structured executive coaching protocols, systematic pattern recognition, and progressive leadership psychology that builds competence over months.
-              </p>
-              <p className="text-lg text-muted-foreground mt-4 font-sans leading-normal">
-                <strong>The "Memory Moat":</strong> ChatGPT forgets your patterns. Jung tracks your leadership evolution - connecting behavioral patterns across quarters: "This decision paralysis matches your pattern from Q2. Your inner Perfectionist is blocking your Visionary. Let's integrate both." Executive growth becomes measurable over time.
-              </p>
+
+              <div className="space-y-6 mt-6">
+                <div>
+                  <h3 className="text-xl font-bold font-heading mb-3">The "Sycophant" Problem</h3>
+                  <p className="text-lg text-muted-foreground font-sans leading-normal">
+                    <strong>ChatGPT:</strong> Trained using RLHF to be helpful, polite, and agreeable. Tell it "I'm right and my team is wrong," and it validates your ego to keep you happy.
+                  </p>
+                  <p className="text-lg text-muted-foreground mt-2 font-sans leading-normal">
+                    <strong>Forever Jung:</strong> Trained to be objective and challenging. We don't want your approval. We want your growth. Jung confronts you: "You say your team is the problem, but this is the third time you've felt betrayed this month. What is your role in this pattern?"
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold font-heading mb-3">"Episodic" vs "Reflective" Memory</h3>
+                  <p className="text-lg text-muted-foreground font-sans leading-normal">
+                    <strong>ChatGPT:</strong> Has "Fact Memory." It remembers what you said (e.g., "I am a CEO"). It treats every session as a new task with context attached.
+                  </p>
+                  <p className="text-lg text-muted-foreground mt-2 font-sans leading-normal">
+                    <strong>Forever Jung:</strong> Has "Trajectory Tracking." It remembers who you are becoming. It graphs your psychological evolution: "Your anxiety dropped 15% since Q1 shadow work, but conflict avoidance increased. Let's examine that."
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold font-heading mb-3">The "Blank Page" Paralysis</h3>
+                  <p className="text-lg text-muted-foreground font-sans leading-normal">
+                    <strong>ChatGPT:</strong> A generalist tool waiting for your prompt. Requires you to be the expert on what you need.
+                  </p>
+                  <p className="text-lg text-muted-foreground mt-2 font-sans leading-normal">
+                    <strong>Forever Jung:</strong> A specialist program with a Directed Protocol. You don't guess what to do next. We guide you through The Process™ - a structured 12-week arc of individuation.
+                  </p>
+                </div>
+
+                {/* Comparison Table */}
+                <div className="bg-muted/30 rounded-lg p-6 mt-8">
+                  <h3 className="text-xl font-bold font-heading mb-4 text-center">The Technical Difference</h3>
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-sm">
+                      <thead>
+                        <tr className="border-b">
+                          <th className="text-left py-3 font-heading">Feature</th>
+                          <th className="text-left py-3 font-heading">ChatGPT / Claude</th>
+                          <th className="text-left py-3 font-heading text-primary">Forever Jung</th>
+                        </tr>
+                      </thead>
+                      <tbody className="font-sans">
+                        <tr className="border-b">
+                          <td className="py-3 font-medium">Primary Goal</td>
+                          <td className="py-3 text-muted-foreground">Task Completion & Assistance</td>
+                          <td className="py-3">Self-Discovery & Integration</td>
+                        </tr>
+                        <tr className="border-b">
+                          <td className="py-3 font-medium">Response Style</td>
+                          <td className="py-3 text-muted-foreground">Polite, Agreeable, Generic</td>
+                          <td className="py-3">Challenging, Deep, Specific</td>
+                        </tr>
+                        <tr className="border-b">
+                          <td className="py-3 font-medium">Memory Type</td>
+                          <td className="py-3 text-muted-foreground">Episodic (Stores facts)</td>
+                          <td className="py-3 font-semibold">Reflective (Tracks patterns)</td>
+                        </tr>
+                        <tr className="border-b">
+                          <td className="py-3 font-medium">Data Privacy</td>
+                          <td className="py-3 text-muted-foreground">Trains on data (Default)</td>
+                          <td className="py-3 font-semibold">Local-First Encryption</td>
+                        </tr>
+                        <tr>
+                          <td className="py-3 font-medium">Framework</td>
+                          <td className="py-3 text-muted-foreground">None (User must prompt)</td>
+                          <td className="py-3 font-semibold">The Jung Process™</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <Statistics />
