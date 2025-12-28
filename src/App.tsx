@@ -14,6 +14,7 @@ import { Mission } from "./components/Mission";
 import { WhyPay } from "./components/WhyPay";
 import { ThresholdFlow } from "./components/ThresholdFlow";
 import { Psychology } from "./components/Psychology";
+import { Process } from "./components/Process";
 import "./App.css";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <HowItWorks />
       <Features />
       <Psychology />
+      <Process />
       <Services />
       <Cta />
       <Mission />

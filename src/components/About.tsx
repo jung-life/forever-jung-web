@@ -18,79 +18,79 @@ export const About = () => {
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold font-heading">
                 <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                  Why Not Just Use{" "}
+                  What Makes Jung Different{" "}
                 </span>
-                ChatGPT?
+                from Consumer AI?
               </h2>
 
-              <div className="space-y-6 mt-6">
+              <div className="space-y-8 mt-6">
                 <div>
-                  <h3 className="text-xl font-bold font-heading mb-3">The "Sycophant" Problem</h3>
-                  <p className="text-lg text-muted-foreground font-sans leading-normal">
-                    <strong>ChatGPT:</strong> Trained using RLHF to be helpful, polite, and agreeable. Tell it "I'm right and my team is wrong," and it validates your ego to keep you happy.
+                  <h3 className="text-lg font-semibold font-sans mb-4 text-foreground">The Echo Chamber Problem</h3>
+                  <p className="text-base text-muted-foreground font-sans leading-normal mb-3">
+                    <span className="font-medium text-foreground">Consumer AI:</span> Designed to please. Ask about a difficult decision, get validation for what you've already decided.
                   </p>
-                  <p className="text-lg text-muted-foreground mt-2 font-sans leading-normal">
-                    <strong>Forever Jung:</strong> Trained to be objective and challenging. We don't want your approval. We want your growth. Jung confronts you: "You say your team is the problem, but this is the third time you've felt betrayed this month. What is your role in this pattern?"
+                  <p className="text-base text-muted-foreground font-sans leading-normal">
+                    <span className="font-medium text-foreground">Jung:</span> Designed to develop. "You've avoided this conversation with your CTO for three weeks. What are you protecting yourself from?"
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-bold font-heading mb-3">"Episodic" vs "Reflective" Memory</h3>
-                  <p className="text-lg text-muted-foreground font-sans leading-normal">
-                    <strong>ChatGPT:</strong> Has "Fact Memory." It remembers what you said (e.g., "I am a CEO"). It treats every session as a new task with context attached.
+                  <h3 className="text-lg font-semibold font-sans mb-4 text-foreground">Snapshot vs. Growth Trajectory</h3>
+                  <p className="text-base text-muted-foreground font-sans leading-normal mb-3">
+                    <span className="font-medium text-foreground">Consumer AI:</span> Treats each conversation as isolated. Knows your title, not your journey.
                   </p>
-                  <p className="text-lg text-muted-foreground mt-2 font-sans leading-normal">
-                    <strong>Forever Jung:</strong> Has "Trajectory Tracking." It remembers who you are becoming. It graphs your psychological evolution: "Your anxiety dropped 15% since Q1 shadow work, but conflict avoidance increased. Let's examine that."
+                  <p className="text-base text-muted-foreground font-sans leading-normal">
+                    <span className="font-medium text-foreground">Jung:</span> Maps your leadership evolution. "Your delegation improved 40% since Q1, but you're micromanaging again under pressure. Let's examine that pattern."
                   </p>
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-bold font-heading mb-3">The "Blank Page" Paralysis</h3>
-                  <p className="text-lg text-muted-foreground font-sans leading-normal">
-                    <strong>ChatGPT:</strong> A generalist tool waiting for your prompt. Requires you to be the expert on what you need.
+                  <h3 className="text-lg font-semibold font-sans mb-4 text-foreground">The Generic Advice Problem</h3>
+                  <p className="text-base text-muted-foreground font-sans leading-normal mb-3">
+                    <span className="font-medium text-foreground">Consumer AI:</span> One-size-fits-all responses. You guess what questions to ask.
                   </p>
-                  <p className="text-lg text-muted-foreground mt-2 font-sans leading-normal">
-                    <strong>Forever Jung:</strong> A specialist program with a Directed Protocol. You don't guess what to do next. We guide you through The Process™ - a structured 12-week arc of individuation.
+                  <p className="text-base text-muted-foreground font-sans leading-normal">
+                    <span className="font-medium text-foreground">Jung:</span> Tailored for executive development. The Process™ guides you through 12 weeks of structured leadership transformation.
                   </p>
                 </div>
 
                 {/* Comparison Table */}
                 <div className="bg-muted/30 rounded-lg p-6 mt-8">
-                  <h3 className="text-xl font-bold font-heading mb-4 text-center">The Technical Difference</h3>
+                  <h3 className="text-lg font-semibold font-sans mb-6 text-center text-foreground">Executive Development vs. General AI</h3>
                   <div className="overflow-x-auto">
-                    <table className="w-full text-sm">
+                    <table className="w-full">
                       <thead>
-                        <tr className="border-b">
-                          <th className="text-left py-3 font-heading">Feature</th>
-                          <th className="text-left py-3 font-heading">ChatGPT / Claude</th>
-                          <th className="text-left py-3 font-heading text-primary">Forever Jung</th>
+                        <tr className="border-b border-muted">
+                          <th className="text-left py-3 font-sans font-medium text-sm text-foreground">Executive Need</th>
+                          <th className="text-left py-3 font-sans font-medium text-sm text-foreground">Consumer AI</th>
+                          <th className="text-left py-3 font-sans font-medium text-sm text-primary">Jung</th>
                         </tr>
                       </thead>
                       <tbody className="font-sans">
-                        <tr className="border-b">
-                          <td className="py-3 font-medium">Primary Goal</td>
-                          <td className="py-3 text-muted-foreground">Task Completion & Assistance</td>
-                          <td className="py-3">Self-Discovery & Integration</td>
+                        <tr className="border-b border-muted/50">
+                          <td className="py-3 font-sans text-sm font-medium text-foreground">Leadership Blind Spots</td>
+                          <td className="py-3 font-sans text-sm text-muted-foreground">Validates existing views</td>
+                          <td className="py-3 font-sans text-sm text-foreground">Surfaces unconscious patterns</td>
                         </tr>
-                        <tr className="border-b">
-                          <td className="py-3 font-medium">Response Style</td>
-                          <td className="py-3 text-muted-foreground">Polite, Agreeable, Generic</td>
-                          <td className="py-3">Challenging, Deep, Specific</td>
+                        <tr className="border-b border-muted/50">
+                          <td className="py-3 font-sans text-sm font-medium text-foreground">Decision Quality</td>
+                          <td className="py-3 font-sans text-sm text-muted-foreground">Information gathering</td>
+                          <td className="py-3 font-sans text-sm text-foreground">Pattern-breaking insights</td>
                         </tr>
-                        <tr className="border-b">
-                          <td className="py-3 font-medium">Memory Type</td>
-                          <td className="py-3 text-muted-foreground">Episodic (Stores facts)</td>
-                          <td className="py-3 font-semibold">Reflective (Tracks patterns)</td>
+                        <tr className="border-b border-muted/50">
+                          <td className="py-3 font-sans text-sm font-medium text-foreground">Team Dynamics</td>
+                          <td className="py-3 font-sans text-sm text-muted-foreground">Generic advice</td>
+                          <td className="py-3 font-sans text-sm font-semibold text-foreground">Personalized leadership development</td>
                         </tr>
-                        <tr className="border-b">
-                          <td className="py-3 font-medium">Data Privacy</td>
-                          <td className="py-3 text-muted-foreground">Trains on data (Default)</td>
-                          <td className="py-3 font-semibold">Local-First Encryption</td>
+                        <tr className="border-b border-muted/50">
+                          <td className="py-3 font-sans text-sm font-medium text-foreground">Confidentiality</td>
+                          <td className="py-3 font-sans text-sm text-muted-foreground">Public model training</td>
+                          <td className="py-3 font-sans text-sm font-semibold text-foreground">Private executive sanctuary</td>
                         </tr>
                         <tr>
-                          <td className="py-3 font-medium">Framework</td>
-                          <td className="py-3 text-muted-foreground">None (User must prompt)</td>
-                          <td className="py-3 font-semibold">The Jung Process™</td>
+                          <td className="py-3 font-sans text-sm font-medium text-foreground">Development Path</td>
+                          <td className="py-3 font-sans text-sm text-muted-foreground">Random conversations</td>
+                          <td className="py-3 font-sans text-sm font-semibold text-foreground">Structured 12-week transformation</td>
                         </tr>
                       </tbody>
                     </table>
