@@ -25,16 +25,16 @@ export const Hero = () => {
 
         <div className="space-y-4 md:space-y-0 md:space-x-4 flex flex-col md:flex-row">
           <a
+            href="#threshold"
+            className={`w-full md:w-1/2 ${buttonVariants()} bg-purple-600 hover:bg-purple-700 text-lg py-4`}
+          >
+            Begin The Process™
+          </a>
+          <a
             href="#about"
             className={`w-full md:w-1/3 ${buttonVariants({ variant: "outline" })}`}
           >
             Learn More
-          </a>
-          <a
-            href="#threshold"
-            className={`w-full md:w-1/3 ${buttonVariants()} bg-purple-600 hover:bg-purple-700`}
-          >
-            Try The Threshold
           </a>
         </div>
       </div>
