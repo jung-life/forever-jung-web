@@ -40,7 +40,8 @@ const routeList: RouteProps[] = [
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
-    <header className="sticky border-b-[1px] top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
+    <header className="sticky top-0 z-40 w-full bg-white dark:bg-background">
+      <div className="border-b-[1px] border-muted dark:border-slate-700">
       <NavigationMenu className="mx-auto">
         <NavigationMenuList className="container h-16 px-4 w-screen flex justify-between items-center">
           <NavigationMenuItem className="font-bold flex">
@@ -108,6 +109,7 @@ export const Navbar = () => {
           </div>
         </NavigationMenuList>
       </NavigationMenu>
+      </div>
     </header>
   );
 };
