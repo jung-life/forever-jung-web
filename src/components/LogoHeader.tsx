@@ -10,7 +10,7 @@ export function LogoHeader() {
       <img
         src={appIcon}
         alt="Forever Jung - Depth Psychology AI Guide"
-        className="h-12 md:h-16 w-auto object-contain"
+        className="h-10 md:h-12 w-auto object-contain py-1"
       />
     </a>
   );
