@@ -12,7 +12,7 @@ import { Services } from "./components/Services";
 import { Manifesto } from "./components/Manifesto";
 import { Mission } from "./components/Mission";
 import { WhyPay } from "./components/WhyPay";
-import { ExecutiveOnboarding } from "./components/ExecutiveOnboarding";
+import { PersonalOnboarding } from "./components/ExecutiveOnboarding";
 import { Psychology } from "./components/Psychology";
 import { Process } from "./components/Process";
 import "./App.css";
@@ -33,7 +33,7 @@ function App() {
       <WhyPay />
       <Manifesto />
       <section id="onboarding">
-        <ExecutiveOnboarding />
+        <PersonalOnboarding />
       </section>
       <Newsletter />
       <FAQ />

@@ -13,7 +13,7 @@ interface FormData {
   experience: string;
 }
 
-export const ExecutiveOnboarding = () => {
+export const PersonalOnboarding = () => {
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState<FormData>({
     name: '',
@@ -34,20 +34,20 @@ export const ExecutiveOnboarding = () => {
   };
 
   const challenges = [
-    "Recurring team conflicts that I can't resolve",
-    "Decision paralysis in high-pressure situations",
-    "Difficulty delegating without micromanaging",
-    "Imposter syndrome despite proven success",
-    "Strategic thinking feels reactive, not proactive",
-    "Struggling to innovate within established systems"
+    "Recurring relationship conflicts in my life",
+    "Feeling stuck or uncertain about major decisions",
+    "Difficulty understanding my emotional patterns",
+    "Imposter syndrome or self-doubt",
+    "Lack of direction or purpose in life",
+    "Struggling with authentic self-expression"
   ];
 
   const experiences = [
-    "New to executive coaching",
-    "Tried traditional coaching - want deeper work",
-    "Experienced with therapy/psychology",
-    "Familiar with Jung's work",
-    "Seeking systematic approach to leadership"
+    "New to personal development work",
+    "Tried traditional therapy - want deeper exploration",
+    "Experienced with psychology or self-help",
+    "Familiar with Jung's work or depth psychology",
+    "Seeking systematic approach to self-discovery"
   ];
 
   return (
@@ -57,10 +57,10 @@ export const ExecutiveOnboarding = () => {
           <Card className="border-2">
             <CardHeader className="text-center">
               <CardTitle className="text-3xl font-heading font-bold mb-4">
-                Executive Strategy Session
+                Personal Discovery Session
               </CardTitle>
               <p className="text-lg text-muted-foreground font-sans">
-                A confidential 30-minute consultation to assess how The Process™ can address your specific leadership challenges.
+                A confidential 30-minute consultation to explore how The Process™ can support your unique journey of self-discovery and growth.
               </p>
             </CardHeader>
             <CardContent className="space-y-8">
@@ -69,22 +69,22 @@ export const ExecutiveOnboarding = () => {
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto">
                     <span className="text-primary font-bold">1</span>
                   </div>
-                  <h3 className="font-semibold font-heading">Assessment</h3>
-                  <p className="text-sm text-muted-foreground">Identify your unique leadership patterns and blind spots</p>
+                  <h3 className="font-semibold font-heading">Exploration</h3>
+                  <p className="text-sm text-muted-foreground">Discover your unique psychological patterns and growth areas</p>
                 </div>
                 <div className="space-y-3">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto">
                     <span className="text-primary font-bold">2</span>
                   </div>
-                  <h3 className="font-semibold font-heading">Strategy</h3>
-                  <p className="text-sm text-muted-foreground">Custom Process™ roadmap for your development goals</p>
+                  <h3 className="font-semibold font-heading">Pathway</h3>
+                  <p className="text-sm text-muted-foreground">Custom Process™ roadmap tailored to your personal development goals</p>
                 </div>
                 <div className="space-y-3">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto">
                     <span className="text-primary font-bold">3</span>
                   </div>
-                  <h3 className="font-semibold font-heading">Implementation</h3>
-                  <p className="text-sm text-muted-foreground">Begin structured transformation with measurable outcomes</p>
+                  <h3 className="font-semibold font-heading">Transformation</h3>
+                  <p className="text-sm text-muted-foreground">Begin structured self-discovery with meaningful insights</p>
                 </div>
               </div>
 
@@ -93,7 +93,7 @@ export const ExecutiveOnboarding = () => {
                   onClick={() => setStep(2)}
                   className="bg-primary hover:bg-primary/90 text-lg px-8 py-4"
                 >
-                  Schedule Strategy Session
+                  Schedule Discovery Session
                 </Button>
                 <p className="text-sm text-muted-foreground mt-3">
                   No commitment required • Completely confidential
@@ -107,10 +107,10 @@ export const ExecutiveOnboarding = () => {
           <Card className="border-2">
             <CardHeader className="text-center">
               <CardTitle className="text-2xl font-heading font-bold">
-                Executive Information
+                Personal Information
               </CardTitle>
               <p className="text-muted-foreground">
-                Help us prepare a tailored strategy session for your leadership development
+                Help us prepare a tailored discovery session for your personal growth journey
               </p>
             </CardHeader>
             <CardContent>
@@ -141,29 +141,29 @@ export const ExecutiveOnboarding = () => {
 
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <Label htmlFor="company" className="text-sm font-medium">Company</Label>
+                    <Label htmlFor="company" className="text-sm font-medium">Occupation/Field (Optional)</Label>
                     <Input
                       id="company"
+                      placeholder="e.g., Teacher, Engineer, Artist, Student"
                       value={formData.company}
                       onChange={(e) => updateFormData('company', e.target.value)}
                       className="mt-1"
                     />
                   </div>
                   <div>
-                    <Label htmlFor="role" className="text-sm font-medium">Leadership Role *</Label>
+                    <Label htmlFor="role" className="text-sm font-medium">Current Life Stage</Label>
                     <Input
                       id="role"
-                      placeholder="CEO, VP, Director, etc."
+                      placeholder="e.g., Career transition, New parent, Student, Retirement"
                       value={formData.role}
                       onChange={(e) => updateFormData('role', e.target.value)}
                       className="mt-1"
-                      required
                     />
                   </div>
                 </div>
 
                 <div>
-                  <Label className="text-sm font-medium">Current Leadership Challenge *</Label>
+                  <Label className="text-sm font-medium">Current Personal Challenge *</Label>
                   <div className="grid md:grid-cols-2 gap-3 mt-2">
                     {challenges.map((challenge) => (
                       <label key={challenge} className="flex items-center space-x-2 cursor-pointer">
@@ -206,7 +206,7 @@ export const ExecutiveOnboarding = () => {
                     Back
                   </Button>
                   <Button type="submit" className="flex-1 bg-primary hover:bg-primary/90">
-                    Request Strategy Session
+                    Request Discovery Session
                   </Button>
                 </div>
               </form>
@@ -223,10 +223,10 @@ export const ExecutiveOnboarding = () => {
                 </svg>
               </div>
 
-              <h2 className="text-2xl font-heading font-bold mb-4">Strategy Session Requested</h2>
+              <h2 className="text-2xl font-heading font-bold mb-4">Discovery Session Requested</h2>
 
               <p className="text-lg text-muted-foreground mb-6 max-w-md mx-auto">
-                Thank you, {formData.name}. We'll contact you within 24 hours to schedule your confidential executive strategy session.
+                Thank you, {formData.name}. We'll contact you within 24 hours to schedule your confidential personal discovery session.
               </p>
 
               <div className="bg-white rounded-lg p-6 max-w-md mx-auto text-left">
