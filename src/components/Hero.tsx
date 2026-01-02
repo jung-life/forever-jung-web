@@ -15,11 +15,11 @@ export const Hero = () => {
         <div className="flex flex-wrap justify-center lg:justify-start gap-4 text-xs text-muted-foreground font-medium">
           <div className="flex items-center gap-2 bg-muted/50 rounded-full px-3 py-1">
             <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-            Executive Focused
+            Depth Psychology
           </div>
           <div className="flex items-center gap-2 bg-muted/50 rounded-full px-3 py-1">
             <span className="w-2 h-2 bg-blue-500 rounded-full animate-pulse delay-300"></span>
-            12-Week Structure
+            Continuous Discovery
           </div>
           <div className="flex items-center gap-2 bg-muted/50 rounded-full px-3 py-1">
             <span className="w-2 h-2 bg-purple-500 rounded-full animate-pulse delay-700"></span>
@@ -43,19 +43,19 @@ export const Hero = () => {
         </main>
 
         <p className="text-lg text-muted-foreground md:w-10/12 mx-auto lg:mx-0 font-sans leading-relaxed">
-          Executive coaching for your unconscious. A structured program for high-performers seeking psychological depth.
-          <span className="font-medium text-foreground"> Private, systematic, transformative.</span> Your inner work deserves the same rigor as your business strategy.
+          An AI companion trained in Carl Jung's depth psychology for continuous self-discovery through meaningful conversations.
+          <span className="font-medium text-foreground"> Private, insightful, transformative.</span> Your inner work deserves a guide that remembers and grows with you.
         </p>
 
         {/* Social proof numbers */}
         <div className="flex justify-center lg:justify-start gap-8 py-4">
           <div className="text-center">
-            <div className="text-2xl font-bold text-primary">15+</div>
-            <div className="text-sm text-muted-foreground">Psychology Frameworks</div>
+            <div className="text-2xl font-bold text-primary">24/7</div>
+            <div className="text-sm text-muted-foreground">Available Guidance</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-primary">3+</div>
-            <div className="text-sm text-muted-foreground">Months Memory</div>
+            <div className="text-2xl font-bold text-primary">∞</div>
+            <div className="text-sm text-muted-foreground">Conversation Memory</div>
           </div>
           <div className="text-center">
             <div className="text-2xl font-bold text-primary">100%</div>
