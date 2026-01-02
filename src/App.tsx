@@ -12,7 +12,7 @@ import { Services } from "./components/Services";
 import { Manifesto } from "./components/Manifesto";
 import { Mission } from "./components/Mission";
 import { WhyPay } from "./components/WhyPay";
-import { ThresholdFlow } from "./components/ThresholdFlow";
+import { ExecutiveOnboarding } from "./components/ExecutiveOnboarding";
 import { Psychology } from "./components/Psychology";
 import { Process } from "./components/Process";
 import "./App.css";
@@ -32,8 +32,8 @@ function App() {
       <Mission />
       <WhyPay />
       <Manifesto />
-      <section id="threshold" className="py-24">
-        <ThresholdFlow />
+      <section id="onboarding">
+        <ExecutiveOnboarding />
       </section>
       <Newsletter />
       <FAQ />

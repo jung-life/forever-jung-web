@@ -65,7 +65,7 @@ export const Hero = () => {
 
         <div className="space-y-4 md:space-y-0 md:space-x-4 flex flex-col md:flex-row">
           <a
-            href="#threshold"
+            href="#onboarding"
             className={`group w-full md:w-1/2 ${buttonVariants()} bg-purple-600 hover:bg-purple-700 text-lg py-4 relative overflow-hidden`}
           >
             <span className="relative z-10">Begin The Process™</span>
